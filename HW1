@@ -1,0 +1,25 @@
+using Nest;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HW1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Представьтесь, пожалуйста: ");
+            string name = Console.ReadLine();
+            /* теперь я умею писать многострочные комментарии 
+             * какой восторг */
+            DateTime adate = DateTime.Now ;
+            Console.WriteLine($"Привет {name}");
+            Console.WriteLine($"Сегодняшняя дата:");
+            Console.WriteLine(adate.ToString("MM/dd/yyyy"));
+        }
+    }
+}
+
